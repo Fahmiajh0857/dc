@@ -1,0 +1,37 @@
+01 DISCORD_TOKEN =
+ambil DISCORD_TOKEN lewat discord website menggunakan kode dibawah
+
+(
+    webpackChunkdiscord_app.push(
+        [
+            [''],
+            {},
+            e => {
+                m=[];
+                for(let c in e.c)
+                    m.push(e.c[c])
+            }
+        ]
+    ),
+    m
+).find(
+    m => m?.exports?.default?.getToken !== void 0
+).exports.default.getToken()
+
+
+paste ini di console (F12)
+
+
+02 CHANNEL_IDS = 
+Aktifkan developer mode di pengaturan discord kemudian klik kanan di channel yang ingin di auto chat
+code ini lebih efektif di channel general yg menggunakan bahasa inggris
+
+
+
+IGNORED_USER_IDS = 
+klik kanan pada member yang tidak ingin di simpan chat nya seperti moderator etc
+
+
+
+gue lupa harus install apa aja nanti pasti muncul error
+di problem cari aja di chat gpt cara install nnt dikasih tau :V
